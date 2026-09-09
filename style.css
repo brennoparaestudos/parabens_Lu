@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0a0a0f;
+    color: white;
+}
+
+div#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    font-family: "Creepster", system-ui;   
+}
+
+span {
+    position: absolute;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+span#porta {
+    top: 20%; 
+    left: 15%; 
+}
+
+span#gato {
+    top: 60%; 
+    left: 75%; 
+}
+
+span#jardim {
+    top: 75%; 
+    left: 25%; 
+}
+
+span#chave {
+    top: 30%; 
+    left: 70%; 
+}
+
+span#lua {
+    top: 50%; 
+    left: 45%; 
+}
+
+span:hover{
+    transform: scale(1.3);
+}
+
+div#overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:  rgba(0,0,0,0.85);
+}
+
+div#caixa-mensagem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 500px;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    border: 1px solid gold;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+button#btn-fechar{
+    button#btn-fechar{
+    background-color: transparent;
+    border: 1px solid gold;
+    color: gold;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+}
