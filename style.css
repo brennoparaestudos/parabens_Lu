@@ -5,7 +5,10 @@
 }
 
 body{
-    background-color: #0a0a0f;
+    background-image: url('imagem/coraline.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
 }
 
@@ -28,28 +31,28 @@ span {
 }
 
 span#porta {
-    top: 20%; 
-    left: 15%; 
+    top: 15%; 
+    left: 8%; 
 }
 
 span#gato {
-    top: 60%; 
-    left: 75%; 
+    top: 20%; 
+    left: 85%; 
 }
 
 span#jardim {
     top: 75%; 
-    left: 25%; 
+    left: 15%; 
 }
 
 span#chave {
-    top: 30%; 
-    left: 70%; 
+    top: 40%; 
+    left: 80%; 
 }
 
 span#lua {
-    top: 50%; 
-    left: 45%; 
+    top: 35%; 
+    left: 48%; 
 }
 
 span:hover{
@@ -78,7 +81,6 @@ div#caixa-mensagem{
     border-radius: 5px;
 }
 
-button#btn-fechar{
     button#btn-fechar{
     background-color: transparent;
     border: 1px solid gold;
@@ -89,4 +91,34 @@ button#btn-fechar{
     margin-top: 20px;
     font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 0.85rem;
+    }
+
+    span {
+        font-size: 1.8rem;
+    }
+
+    span#porta { 
+        top: 15%;
+        left: 5%;
+    }
+    span#gato { 
+        top: 15%;
+        left: 80%;
+    }
+    span#jardim {
+        top: 75%; 
+        left: 10%;
+    }
+    span#chave { 
+        top: 45%; 
+        left: 80%; 
+    }
+    span#lua { 
+        top: 40%;
+        left: 45%; 
+    }
 }
